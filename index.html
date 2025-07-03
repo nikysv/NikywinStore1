@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>✨Nikywin Store - Fashion Store✨</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Cursor personalizado -->
+    <div class="custom-cursor">
+      <div class="cursor-dot"></div>
+      <div class="cursor-outline"></div>
+    </div>
+
+    <!-- Partículas flotantes de fondo -->
+    <div class="particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+
+    <!-- Ondas animadas de fondo -->
+    <div class="animated-waves">
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+    </div>
+
+    <!-- Header con logo animado -->
+    <header class="main-header">
+      <div class="logo">
+        <i class="fas fa-crown"></i>
+        <span>Nikywin Store</span>
+      </div>
+      <nav class="nav-menu">
+        <a href="#inicio"><i class="fas fa-home"></i> Inicio</a>
+        <a href="#productos"><i class="fas fa-star"></i> Destacados</a>
+        <a href="#nuevos"><i class="fas fa-sparkles"></i> Nuevos</a>
+      </nav>
+    </header>
+
+    <div id="inicio">
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1 class="glowing-text">¡Bienvenidos a Nikywin Store!</h1>
+          <p class="subtitle floating-text">
+            Descubre la moda más exclusiva y elegante. Cada pieza cuenta una
+            historia única.
+          </p>
+
+          <!-- Contador de ofertas animado -->
+          <div class="countdown-banner">
+            <div class="countdown-content">
+              <span class="countdown-label">⚡ Oferta Flash Termina en:</span>
+              <div class="countdown-timer">
+                <div class="time-unit">
+                  <span class="time-number" id="hours">05</span>
+                  <span class="time-label">Horas</span>
+                </div>
+                <div class="time-separator">:</div>
+                <div class="time-unit">
+                  <span class="time-number" id="minutes">23</span>
+                  <span class="time-label">Min</span>
+                </div>
+                <div class="time-separator">:</div>
+                <div class="time-unit">
+                  <span class="time-number" id="seconds">45</span>
+                  <span class="time-label">Seg</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <i class="fas fa-heart"></i>
+              <span>+1000</span>
+              <small>Clientes Felices</small>
+            </div>
+            <div class="stat">
+              <i class="fas fa-star"></i>
+              <span>5.0</span>
+              <small>Calificación</small>
+            </div>
+            <div class="stat">
+              <i class="fas fa-shipping-fast"></i>
+              <span>24h</span>
+              <small>Envío Rápido</small>
+            </div>
+          </div>
+          <button class="cta-button magic-button">
+            <span class="button-text">
+              <i class="fas fa-shopping-bag"></i>
+              Explorar Colección
+            </span>
+            <div class="button-magic"></div>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <!-- Notificaciones flotantes independientes -->
+    <div class="floating-notifications">
+      <div class="notification" id="notification1">
+        <i class="fas fa-shopping-cart"></i>
+        <span>Ana compró un <strong>Vestido Premium</strong></span>
+      </div>
+      <div class="notification" id="notification2">
+        <i class="fas fa-heart"></i>
+        <span>Carlos agregó <strong>Tacos Channel</strong> a favoritos</span>
+      </div>
+      <div class="notification" id="notification3">
+        <i class="fas fa-star"></i>
+        <span>María calificó con <strong>5 estrellas</strong></span>
+      </div>
+    </div>
+
+    <div id="productos">
+      <section class="products-section">
+        <!-- Indicador de productos en vivo -->
+        <div class="live-indicator">
+          <div class="live-dot"></div>
+          <span>🔥 124 personas viendo estos productos ahora</span>
+        </div>
+
+        <h2 class="section-title">
+          <i class="fas fa-crown"></i>
+          Productos Destacados
+          <i class="fas fa-crown"></i>
+        </h2>
+        <ul class="products-grid">
+          <li class="product-card premium magnetic-card">
+            <div class="product-badge">⭐ Premium</div>
+            <div class="floating-hearts">
+              <div class="heart">💖</div>
+              <div class="heart">💕</div>
+              <div class="heart">💝</div>
+            </div>
+            <div class="product-image">
+              <img src="boda.webp" alt="vestido de boda" />
+              <div class="product-overlay">
+                <button class="quick-view pulse-button">
+                  <i class="fas fa-eye"></i> Vista Rápida
+                </button>
+                <button class="add-to-cart pulse-button">
+                  <i class="fas fa-shopping-cart"></i> Agregar
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Vestido de Boda Elegante</h3>
+              <div class="price">
+                <span class="current-price">$299.99</span>
+                <span class="original-price">$399.99</span>
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(128)</span>
+              </div>
+            </div>
+          </li>
+          <li class="product-card trending">
+            <div class="product-badge trending-badge">🔥 Trending</div>
+            <div class="product-image">
+              <img src="channel.jpg" alt="Tacos channel" />
+              <div class="product-overlay">
+                <button class="quick-view">
+                  <i class="fas fa-eye"></i> Vista Rápida
+                </button>
+                <button class="add-to-cart">
+                  <i class="fas fa-shopping-cart"></i> Agregar
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Tacos Channel Exclusivos</h3>
+              <div class="price">
+                <span class="current-price">$189.99</span>
+                <span class="original-price">$249.99</span>
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(89)</span>
+              </div>
+            </div>
+          </li>
+          <li class="product-card new">
+            <div class="product-badge new-badge">✨ Nuevo</div>
+            <div class="product-image">
+              <img src="jean.webp" alt="Jean" />
+              <div class="product-overlay">
+                <button class="quick-view">
+                  <i class="fas fa-eye"></i> Vista Rápida
+                </button>
+                <button class="add-to-cart">
+                  <i class="fas fa-shopping-cart"></i> Agregar
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Jean Premium Collection</h3>
+              <div class="price">
+                <span class="current-price">$79.99</span>
+                <span class="original-price">$99.99</span>
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(67)</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div id="nuevos">
+      <section class="products-section nuevos-section">
+        <h2 class="section-title">
+          <i class="fas fa-sparkles"></i>
+          Nuevos Productos
+          <i class="fas fa-sparkles"></i>
+        </h2>
+        <div class="promo-banner">
+          <i class="fas fa-gift"></i>
+          <span>¡Oferta especial en nuevos productos! 25% de descuento</span>
+          <i class="fas fa-gift"></i>
+        </div>
+        <ul class="products-grid">
+          <li class="product-card limited">
+            <div class="product-badge limited-badge">⚡ Edición Limitada</div>
+            <div class="product-image">
+              <img src="boda.webp" alt="vestido de boda" />
+              <div class="product-overlay">
+                <button class="quick-view">
+                  <i class="fas fa-eye"></i> Vista Rápida
+                </button>
+                <button class="add-to-cart">
+                  <i class="fas fa-shopping-cart"></i> Agregar
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Vestido Edición Especial</h3>
+              <div class="price">
+                <span class="current-price">$399.99</span>
+                <span class="original-price">$499.99</span>
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(95)</span>
+              </div>
+              <div class="stock-counter">Solo quedan 3 unidades</div>
+            </div>
+          </li>
+          <li class="product-card bestseller">
+            <div class="product-badge bestseller-badge">👑 Best Seller</div>
+            <div class="product-image">
+              <img src="channel.jpg" alt="Tacos channel" />
+              <div class="product-overlay">
+                <button class="quick-view">
+                  <i class="fas fa-eye"></i> Vista Rápida
+                </button>
+                <button class="add-to-cart">
+                  <i class="fas fa-shopping-cart"></i> Agregar
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Tacos Signature Collection</h3>
+              <div class="price">
+                <span class="current-price">$219.99</span>
+                <span class="original-price">$279.99</span>
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(156)</span>
+              </div>
+            </div>
+          </li>
+          <li class="product-card eco">
+            <div class="product-badge eco-badge">🌱 Eco-Friendly</div>
+            <div class="product-image">
+              <img src="jean.webp" alt="Jean" />
+              <div class="product-overlay">
+                <button class="quick-view">
+                  <i class="fas fa-eye"></i> Vista Rápida
+                </button>
+                <button class="add-to-cart">
+                  <i class="fas fa-shopping-cart"></i> Agregar
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Jean Sustainable Fashion</h3>
+              <div class="price">
+                <span class="current-price">$89.99</span>
+                <span class="original-price">$119.99</span>
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(73)</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Footer atractivo -->
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3><i class="fas fa-crown"></i> KK PUCHI</h3>
+          <p>Tu destino de moda premium</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Contacto</h4>
+          <p><i class="fas fa-envelope"></i> info@kkpuchi.com</p>
+          <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+        </div>
+        <div class="footer-section">
+          <h4>Síguenos</h4>
+          <p>¡No te pierdas nuestras ofertas exclusivas!</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Tu email" />
+            <button><i class="fas fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Nikywin Store. Todos los derechos reservados. ✨</p>
+      </div>
+    </footer>
+
+    <script>
+      // Función para detectar cuando un elemento es visible en el viewport
+      function observeElements() {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+
+                // Si es una sección con lista, animar también los elementos li
+                const listItems = entry.target.querySelectorAll("li");
+                listItems.forEach((item, index) => {
+                  setTimeout(() => {
+                    item.classList.add("visible");
+                  }, index * 150); // Retraso escalonado
+                });
+              }
+            });
+          },
+          {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px",
+          }
+        );
+
+        // Observar todas las secciones
+        const sections = document.querySelectorAll("section");
+        sections.forEach((section) => observer.observe(section));
+
+        // Observar títulos individualmente
+        const titles = document.querySelectorAll("h1, h2");
+        titles.forEach((title) => observer.observe(title));
+      }
+
+      // Efecto de partículas flotantes
+      function createFloatingParticles() {
+        const particles = document.querySelectorAll(".particle");
+        particles.forEach((particle, index) => {
+          particle.style.animationDelay = `${index * 0.5}s`;
+          particle.style.left = `${Math.random() * 100}%`;
+          particle.style.animationDuration = `${8 + Math.random() * 4}s`;
+        });
+      }
+
+      // Efecto de scroll suave para navegación
+      function setupSmoothScroll() {
+        const navLinks = document.querySelectorAll(".nav-menu a");
+        navLinks.forEach((link) => {
+          link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute("href");
+            const targetSection = document.querySelector(targetId);
+            if (targetSection) {
+              targetSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+          });
+        });
+      }
+
+      // Efecto de hover 3D en las tarjetas de productos
+      function setup3DCardEffect() {
+        const cards = document.querySelectorAll(".product-card");
+        cards.forEach((card) => {
+          card.addEventListener("mousemove", (e) => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+
+            const rotateX = (y - centerY) / 10;
+            const rotateY = (centerX - x) / 10;
+
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+          });
+
+          card.addEventListener("mouseleave", () => {
+            card.style.transform =
+              "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)";
+          });
+        });
+      }
+
+      // Contador animado para las estadísticas
+      function animateCounters() {
+        const counters = document.querySelectorAll(".stat span");
+        counters.forEach((counter) => {
+          const target = counter.textContent;
+          let current = 0;
+          const increment = target.includes("+") ? 50 : 0.1;
+          const timer = setInterval(() => {
+            if (target.includes("+")) {
+              current += increment;
+              if (current >= 1000) {
+                counter.textContent = "+1000";
+                clearInterval(timer);
+              } else {
+                counter.textContent = "+" + Math.floor(current);
+              }
+            } else if (target.includes(".")) {
+              current += increment;
+              if (current >= 5.0) {
+                counter.textContent = "5.0";
+                clearInterval(timer);
+              } else {
+                counter.textContent = current.toFixed(1);
+              }
+            }
+          }, 50);
+        });
+      }
+
+      // Efecto de typing para el título principal
+      function typewriterEffect() {
+        const title = document.querySelector(".glowing-text");
+        const text = title.textContent;
+        title.textContent = "";
+        title.style.opacity = "1";
+
+        let i = 0;
+        const timer = setInterval(() => {
+          title.textContent += text.charAt(i);
+          i++;
+          if (i >= text.length) {
+            clearInterval(timer);
+          }
+        }, 100);
+      }
+
+      // Inicializar todo cuando el DOM esté listo
+      document.addEventListener("DOMContentLoaded", () => {
+        observeElements();
+        createFloatingParticles();
+        setupSmoothScroll();
+        setup3DCardEffect();
+        setupCustomCursor();
+        startCountdown();
+        animateNotifications();
+
+        // Retrasar algunos efectos para mejor experiencia
+        setTimeout(typewriterEffect, 500);
+        setTimeout(animateCounters, 1000);
+      });
+
+      // Cursor personalizado
+      function setupCustomCursor() {
+        const cursor = document.querySelector(".custom-cursor");
+        const dot = document.querySelector(".cursor-dot");
+        const outline = document.querySelector(".cursor-outline");
+
+        document.addEventListener("mousemove", (e) => {
+          const x = e.clientX;
+          const y = e.clientY;
+
+          cursor.style.left = x + "px";
+          cursor.style.top = y + "px";
+        });
+
+        // Efectos en hover
+        const hoverElements = document.querySelectorAll(
+          "button, a, .product-card"
+        );
+        hoverElements.forEach((el) => {
+          el.addEventListener("mouseenter", () => {
+            dot.style.width = "15px";
+            dot.style.height = "15px";
+            outline.style.width = "50px";
+            outline.style.height = "50px";
+            outline.style.borderColor = "var(--rosa)";
+          });
+
+          el.addEventListener("mouseleave", () => {
+            dot.style.width = "8px";
+            dot.style.height = "8px";
+            outline.style.width = "30px";
+            outline.style.height = "30px";
+            outline.style.borderColor = "rgba(233, 30, 99, 0.5)";
+          });
+        });
+      }
+
+      // Contador de ofertas
+      function startCountdown() {
+        const hoursEl = document.getElementById("hours");
+        const minutesEl = document.getElementById("minutes");
+        const secondsEl = document.getElementById("seconds");
+
+        let hours = 5;
+        let minutes = 23;
+        let seconds = 45;
+
+        function updateCountdown() {
+          seconds--;
+          if (seconds < 0) {
+            seconds = 59;
+            minutes--;
+            if (minutes < 0) {
+              minutes = 59;
+              hours--;
+              if (hours < 0) {
+                hours = 5;
+                minutes = 23;
+                seconds = 45;
+              }
+            }
+          }
+
+          hoursEl.textContent = hours.toString().padStart(2, "0");
+          minutesEl.textContent = minutes.toString().padStart(2, "0");
+          secondsEl.textContent = seconds.toString().padStart(2, "0");
+        }
+
+        setInterval(updateCountdown, 1000);
+      }
+
+      // Animaciones de notificaciones
+      function animateNotifications() {
+        const notifications = document.querySelectorAll(".notification");
+
+        // Efecto de entrada escalonado
+        notifications.forEach((notification, index) => {
+          setTimeout(() => {
+            notification.style.animationPlayState = "running";
+          }, index * 4000);
+        });
+      }
+
+      // Efecto de partículas mejorado
+      function enhancedParticles() {
+        const particlesContainer = document.querySelector(".particles");
+
+        setInterval(() => {
+          const newParticle = document.createElement("div");
+          newParticle.className = "particle";
+          newParticle.style.left = Math.random() * 100 + "%";
+          newParticle.style.animationDuration = 8 + Math.random() * 4 + "s";
+
+          // Diferentes colores aleatorios
+          const colors = [
+            "var(--rosa)",
+            "var(--morado)",
+            "var(--c1)",
+            "var(--c3)",
+          ];
+          const randomColor = colors[Math.floor(Math.random() * colors.length)];
+          newParticle.style.background = `linear-gradient(45deg, ${randomColor}, transparent)`;
+
+          particlesContainer.appendChild(newParticle);
+
+          // Remover después de la animación
+          setTimeout(() => {
+            if (newParticle.parentNode) {
+              newParticle.parentNode.removeChild(newParticle);
+            }
+          }, 12000);
+        }, 2000);
+      }
+
+      // Activar partículas mejoradas
+      setTimeout(enhancedParticles, 2000);
+    </script>
+  </body>
+</html>
